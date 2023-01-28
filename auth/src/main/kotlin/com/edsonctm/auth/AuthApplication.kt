@@ -1,11 +1,11 @@
-package com.edsonctm.jwt_auth
+package com.edsonctm.auth
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class JwtAuthApplication
+class AuthApplication
 
 fun main(args: Array<String>) {
-	runApplication<JwtAuthApplication>(*args)
+	runApplication<AuthApplication>(*args)
 }
